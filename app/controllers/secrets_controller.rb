@@ -9,5 +9,4 @@ class SecretsController < ApplicationController
     def require_login
       return redirect_to login_path unless current_user
     end
-
 end
